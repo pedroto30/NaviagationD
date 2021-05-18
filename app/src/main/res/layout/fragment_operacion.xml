@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".operacion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="392dp"
+        android:layout_margin="40dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+
+        <Button
+            android:id="@+id/bnsuma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUMA" />
+
+        <Button
+            android:id="@+id/bnresta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESTA" />
+
+        <Button
+            android:id="@+id/bnmultiplicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULTIPLICACION" />
+
+        <Button
+            android:id="@+id/bndivision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIVISION" />
+
+        <EditText
+            android:id="@+id/etresultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+    </LinearLayout>
+
+</FrameLayout>

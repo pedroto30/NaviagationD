@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="PRINCIPAL" />
+        <item
+            android:id="@+id/calculadora"
+            android:icon="@drawable/hacker"
+            android:title="CALCULADORA" />
+        <item
+            android:id="@+id/sonido"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="SONIDO" />
+        <item
+            android:id="@+id/apk"
+            android:icon="@drawable/youtu"
+            android:title="APK" />
+        <item
+            android:id="@+id/imagen1"
+            android:icon="@drawable/ic_baseline_emoji_events_24"
+            android:title="LA GRAN MURRALLA " />
+        <item
+            android:id="@+id/imagen2"
+            android:icon="@drawable/hacker"
+            android:title="CHICHEN ITZA" />
+    </group>
+</menu>
